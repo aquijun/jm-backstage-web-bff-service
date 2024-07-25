@@ -11,13 +11,13 @@ spec:
   owner: team-ecommerce
   lifecycle: experimental
   repository: https://github.com/aquijun/jm-backstage-web-bff-service.git
-  providesApis:
-    - web-bff-api
-  consumesApis:
-    - product-api
-    - order-api
-    - user-api
-  dependsOn:
-    - component: jm-backstage-product-service
-    - component: jm-backstage-order-service
-    - component: jm-backstage-user-service
+  # providesApis:
+  #   - web-bff-api
+  # consumesApis:
+  #   - product-api
+  #   - order-api
+  #   - user-api
+  # dependsOn:
+  #   - component: jm-backstage-product-service
+  #   - component: jm-backstage-order-service
+  #   - component: jm-backstage-user-service
