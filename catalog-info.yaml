@@ -9,6 +9,7 @@ metadata:
 spec:
   type: service
   owner: team-ecommerce
+  lifecycle: experimental
   providesApis:
     - web-bff-api
   consumesApis:
