@@ -14,7 +14,7 @@ Welcome to the **Web BFF Service Repository**! This project serves as a sandbox 
 
 ## **Introduction**
 
-The **Test Repository** is designed for developers to:
+The **Web BFF Service Repository** is designed for developers to:
 - Experiment with new code
 - Test out new libraries and frameworks
 - Learn and practice coding in a risk-free environment
