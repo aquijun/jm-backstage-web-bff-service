@@ -23,3 +23,30 @@ spec:
   #   - component: jm-backstage-product-service
   #   - component: jm-backstage-order-service
   #   - component: jm-backstage-user-service
+
+---
+
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: web-bff-api
+  description: This is a sample API
+  tags:
+    - web-bff
+    - api
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: team-ecommerce
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Sample API
+      version: 1.0.0
+    paths:
+      /:
+        get:
+          summary: Sample endpoint
+          responses:
+            '200':
+              description: Successful response
