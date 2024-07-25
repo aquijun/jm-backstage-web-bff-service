@@ -20,7 +20,7 @@ spec:
     - order-api
     - user-api
   dependsOn:
-    - jm-backstage-product-service
+    - Component: jm-backstage-product-service
   #   - component: jm-backstage-order-service
   #   - component: jm-backstage-user-service
 
