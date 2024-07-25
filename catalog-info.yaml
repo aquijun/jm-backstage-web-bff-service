@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jm-backstage-web-bff-service
+  description: Entry point for the e-commerce website
+  tags:
+    - web
+    - bff
+spec:
+  type: service
+  owner: team-ecommerce
+  providesApis:
+    - web-bff-api
+  consumesApis:
+    - product-api
+    - order-api
+    - user-api
+  dependsOn:
+    - component: jm-backstage-product-service
+    - component: jm-backstage-order-service
+    - component: jm-backstage-user-service
