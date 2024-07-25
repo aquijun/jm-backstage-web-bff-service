@@ -10,6 +10,7 @@ spec:
   type: service
   owner: team-ecommerce
   lifecycle: experimental
+  repository: https://github.com/aquijun/jm-backstage-web-bff-service.git
   providesApis:
     - web-bff-api
   consumesApis:
