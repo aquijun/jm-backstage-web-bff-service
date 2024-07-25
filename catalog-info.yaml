@@ -8,6 +8,10 @@ metadata:
     - bff
   annotations:
     github.com/project-slug: aquijun/jm-backstage-web-bff-service
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
 spec:
   type: service
   owner: team-ecommerce
