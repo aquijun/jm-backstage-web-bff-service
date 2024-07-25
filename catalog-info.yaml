@@ -6,6 +6,8 @@ metadata:
   tags:
     - web
     - bff
+  annotations:
+    github.com/project-slug: aquijun/jm-backstage-web-bff-service
 spec:
   type: service
   owner: team-ecommerce
